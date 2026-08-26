@@ -53,11 +53,6 @@ Transcripts and comments are not automatically translated. They remain in the fo
 | Platform | Link |
 |---|---|
 | Microsoft Edge Add-ons | [Install from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
-| Chrome Web Store | **Coming soon** |
-
-While the store review is pending, you can test the extension in Edge by opening `edge://extensions`, enabling **Developer mode**, selecting **Load unpacked**, and choosing the folder that directly contains `manifest.json`.
-
-Official installation links will be added to the [Store links](#store-links) section after the extension is approved.
 
 ### Privacy
 
@@ -105,11 +100,6 @@ Transcript và bình luận không bị tự động dịch. Nội dung vẫn gi
 | Nền tảng | Liên kết |
 |---|---|
 | Microsoft Edge Add-ons | [Cài đặt từ Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
-| Chrome Web Store | **Sắp cập nhật** |
-
-Trong thời gian chờ cửa hàng xét duyệt, bạn có thể cài bản thử nghiệm trên Edge bằng cách mở `edge://extensions`, bật **Developer mode / Chế độ nhà phát triển**, chọn **Load unpacked / Tải giải nén**, rồi chọn thư mục có `manifest.json` ở cấp trực tiếp.
-
-Sau khi extension được duyệt, các liên kết cài đặt chính thức sẽ được bổ sung tại phần [Store links](#store-links).
 
 ### Quyền riêng tư
 
@@ -126,14 +116,11 @@ Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitH
 ---
 
 ## Store links
-Các liên kết bên dưới sẽ được cập nhật sau khi Microsoft Edge Add-ons và Chrome Web Store cấp URL chính thức.
-
-The links below will be updated after Microsoft Edge Add-ons and Chrome Web Store provide the official product URLs.
+The official Microsoft Edge Add-ons installation link is listed below.
 
 | Store | Status | Installation link |
 |---|---|---|
 | Microsoft Edge Add-ons | Live | [Install](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
-| Chrome Web Store | Not submitted | To be updated |
 
 ## Project status
 
@@ -142,7 +129,7 @@ The links below will be updated after Microsoft Edge Add-ons and Chrome Web Stor
 | Current version | 4.9.0 |
 | Manifest | V3 |
 | Primary test platform | Microsoft Edge Chromium |
-| Store status | Preparing Edge submission |
+| Store status | Live on Microsoft Edge Add-ons |
 
 ## License
 
