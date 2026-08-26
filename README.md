@@ -6,13 +6,13 @@
 ## Table of contents / Mục lục
 
 - [English](#english)
-  - [Overview](#overview-en)
+  - [Overview](#overview)
   - [Features](#features-en)
   - [Installation](#installation-en)
   - [Permissions and privacy](#privacy-en)
   - [Feedback and support](#support-en)
 - [Tiếng Việt](#vietnamese)
-  - [Giới thiệu](#overview-vi)
+  - [Giới thiệu](#giới-thiệu)
   - [Tính năng](#features-vi)
   - [Cài đặt](#installation-vi)
   - [Quyền và quyền riêng tư](#privacy-vi)
@@ -23,7 +23,7 @@
 
 ## English
 
-### Overview EN
+### Overview
 
 ![SubYoutube English interface](assets/subyoutube-interface-en.png)
 
@@ -75,7 +75,7 @@ If you find a bug or have a feature request, open a [GitHub Issue](https://githu
 
 ## Vietnamese
 
-### Overview VI
+### Giới thiệu
 
 ![Giao diện tiếng Việt của SubYoutube](assets/subyoutube-interface-vi.png)
 
