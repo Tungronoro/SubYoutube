@@ -48,6 +48,7 @@ SubYoutube is not an official product of YouTube, Google, or any AI provider. It
 | Temporary saving | Preserves results by video when the popup is closed and reopened. |
 | Automatic cleanup | Removes scans older than 24 hours and retains up to 10 recent videos. |
 | Bilingual interface | Switches the extension interface between Vietnamese and English. |
+| Store listing locales | Provides English and Vietnamese listing content for Microsoft Edge Add-ons. |
 
 Transcripts and comments are not automatically translated. They remain in the form provided by the YouTube caption track and content selected by the user. The extension does not automatically send content to an AI service; the user chooses when to copy it elsewhere.
 
@@ -78,6 +79,12 @@ If you find a bug or have a feature request, open a [GitHub Issue](https://githu
 
 _Giao diện SubYoutube bằng tiếng Việt với transcript, bình luận và các nút tạo prompt._
 
+![Small promotional tile tiếng Việt của SubYoutube](assets/subyoutube-small-promotional-tile-vi.png)
+
+![Large promotional tile tiếng Việt của SubYoutube](assets/subyoutube-large-promotional-tile-vi.png)
+
+_Các promotional tile tiếng Việt dành cho listing SubYoutube trên Microsoft Edge Add-ons._
+
 **SubYoutube** là extension Manifest V3 dành cho Microsoft Edge, giúp bạn lấy transcript/phụ đề và bình luận từ video YouTube đang mở. Nội dung được hiển thị rõ ràng trong popup để bạn sao chép, nghiên cứu hoặc tạo prompt có cấu trúc cho các công cụ AI.
 
 SubYoutube không phải sản phẩm chính thức của YouTube, Google hay bất kỳ nhà cung cấp AI nào. Extension chỉ hỗ trợ lấy và sắp xếp dữ liệu trên trang YouTube mà người dùng chủ động mở.
@@ -94,6 +101,7 @@ SubYoutube không phải sản phẩm chính thức của YouTube, Google hay b�
 | Lưu tạm | Giữ kết quả theo từng video khi đóng và mở lại popup. |
 | Tự dọn dữ liệu | Tự xóa bản quét quá 24 giờ và giữ tối đa 10 video gần nhất. |
 | Giao diện song ngữ | Chuyển đổi giao diện giữa tiếng Việt và English. |
+| Ngôn ngữ listing | Hỗ trợ nội dung listing tiếng Anh và tiếng Việt trên Microsoft Edge Add-ons. |
 
 Transcript và bình luận không bị tự động dịch. Nội dung vẫn giữ nguyên theo track phụ đề và dữ liệu YouTube mà người dùng chọn. Extension không tự động gửi nội dung sang dịch vụ AI; người dùng chủ động sao chép khi muốn sử dụng.
 
@@ -127,7 +135,7 @@ The official Microsoft Edge Add-ons installation link is listed below.
 
 | Item | Status |
 |---|---|
-| Current version | 4.10.0 |
+| Current version | 4.11.1 |
 | Manifest | V3 |
 | Primary test platform | Microsoft Edge Chromium |
 | Store status | Live on Microsoft Edge Add-ons |
