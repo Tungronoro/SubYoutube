@@ -128,7 +128,7 @@ The links below will be updated after Microsoft Edge Add-ons and Chrome Web Stor
 
 | Item | Status |
 |---|---|
-| Current version | 4.7.0 |
+| Current version | 4.9.0 |
 | Manifest | V3 |
 | Primary test platform | Microsoft Edge Chromium |
 | Store status | Preparing Edge submission |
