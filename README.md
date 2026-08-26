@@ -115,7 +115,6 @@ Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitH
 
 ---
 
----
 
 ## Store links
 The official Microsoft Edge Add-ons installation link is listed below.
