@@ -1,5 +1,5 @@
 # SubYoutube
-
+![SubYoutube Large promotional tile](assets/subyoutube-large-promotional-tile.png)
 > Extract YouTube subtitles and comments, then create copyable AI summary prompts.  
 > Lấy phụ đề, bình luận YouTube tích hợp Prompt tóm tắt.
 
@@ -29,9 +29,8 @@
 
 _SubYoutube interface in English with transcript, comments, and prompt actions._
 
-![SubYoutube Large promotional tile](assets/subyoutube-large-promotional-tile.png)
 
-_SubYoutube promotional banner for the Microsoft Edge Add-ons listing._
+
 
 **SubYoutube** is a Manifest V3 extension for Microsoft Edge that extracts the transcript/subtitles and comments from the YouTube video currently open in your browser. It presents the data in a focused popup so you can copy it, research it, or create structured prompts for AI tools.
 
@@ -68,7 +67,6 @@ Data is processed in the browser and is not automatically sent to a SubYoutube s
 
 If you find a bug or have a feature request, open a [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). When reporting a transcript issue, mention the selected YouTube caption language and your Edge version. Do not post passwords, one-time codes, addresses, phone numbers, or private content in an issue.
 
----
 
 ---
 
