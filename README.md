@@ -7,16 +7,16 @@
 
 - [English](#english)
   - [Overview](#overview)
-  - [Features](#features-en)
-  - [Installation](#installation-en)
-  - [Permissions and privacy](#privacy-en)
-  - [Feedback and support](#support-en)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Privacy](#privacy)
+  - [Support](#support)
 - [Tiếng Việt](#vietnamese)
   - [Giới thiệu](#giới-thiệu)
-  - [Tính năng](#features-vi)
-  - [Cài đặt](#installation-vi)
-  - [Quyền và quyền riêng tư](#privacy-vi)
-  - [Phản hồi và hỗ trợ](#support-vi)
+  - [Tính năng](#tính-năng)
+  - [Cài đặt](#cài-đặt)
+  - [Quyền riêng tư](#quyền-riêng-tư)
+  - [Hỗ trợ](#hỗ-trợ)
 - [Store links](#store-links)
 
 ---
@@ -33,7 +33,7 @@ _SubYoutube interface in English with transcript, comments, and prompt actions._
 
 SubYoutube is not an official product of YouTube, Google, or any AI provider. It only helps users read and organize data from a YouTube page that they intentionally open and scan.
 
-### Features EN
+### Features
 
 | Feature | Description |
 |---|---|
@@ -48,7 +48,7 @@ SubYoutube is not an official product of YouTube, Google, or any AI provider. It
 
 Transcripts and comments are not automatically translated. They remain in the form provided by the YouTube caption track and content selected by the user. The extension does not automatically send content to an AI service; the user chooses when to copy it elsewhere.
 
-### Installation EN
+### Installation
 
 | Platform | Link |
 |---|---|
@@ -59,13 +59,13 @@ While the store review is pending, you can test the extension in Edge by opening
 
 Official installation links will be added to the [Store links](#store-links) section after the extension is approved.
 
-### Privacy EN
+### Privacy
 
 SubYoutube reads transcript/subtitle content, comments, the current video URL, and the current video title only after the user opens the extension on a YouTube video and requests a scan. This data is used to display content, create prompts, copy text, save temporary video states, and export SRT files.
 
 Data is processed in the browser and is not automatically sent to a SubYoutube server or an external AI provider. Scan results are stored locally, automatically pruned after 24 hours, and limited to the 10 most recent video states. See [PRIVACY.md](PRIVACY.md) for the complete data-handling policy.
 
-### Support EN
+### Support
 
 If you find a bug or have a feature request, open a [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). When reporting a transcript issue, mention the selected YouTube caption language and your Edge version. Do not post passwords, one-time codes, addresses, phone numbers, or private content in an issue.
 
@@ -85,7 +85,7 @@ _Giao diện SubYoutube bằng tiếng Việt với transcript, bình luận và
 
 SubYoutube không phải sản phẩm chính thức của YouTube, Google hay bất kỳ nhà cung cấp AI nào. Extension chỉ hỗ trợ lấy và sắp xếp dữ liệu trên trang YouTube mà người dùng chủ động mở.
 
-### Features VI
+### Tính năng
 
 | Tính năng | Mô tả |
 |---|---|
@@ -100,7 +100,7 @@ SubYoutube không phải sản phẩm chính thức của YouTube, Google hay b�
 
 Transcript và bình luận không bị tự động dịch. Nội dung vẫn giữ nguyên theo track phụ đề và dữ liệu YouTube mà người dùng chọn. Extension không tự động gửi nội dung sang dịch vụ AI; người dùng chủ động sao chép khi muốn sử dụng.
 
-### Installation VI
+### Cài đặt
 
 | Nền tảng | Liên kết |
 |---|---|
@@ -111,13 +111,13 @@ Trong thời gian chờ cửa hàng xét duyệt, bạn có thể cài bản th�
 
 Sau khi extension được duyệt, các liên kết cài đặt chính thức sẽ được bổ sung tại phần [Store links](#store-links).
 
-### Privacy VI
+### Quyền riêng tư
 
 SubYoutube chỉ đọc transcript/phụ đề, bình luận, URL và tiêu đề video sau khi người dùng chủ động mở extension trên một trang video YouTube và yêu cầu quét. Dữ liệu được dùng để hiển thị, tạo prompt, sao chép, lưu tạm theo video và xuất SRT.
 
 Dữ liệu được xử lý trong trình duyệt và không tự động gửi đến máy chủ SubYoutube hoặc nhà cung cấp AI bên ngoài. Kết quả quét được lưu tạm cục bộ, tự dọn sau 24 giờ và tối đa 10 trạng thái video gần nhất được giữ lại. Xem [PRIVACY.md](PRIVACY.md) để biết đầy đủ cách xử lý dữ liệu.
 
-### Support VI
+### Hỗ trợ
 
 Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). Khi báo lỗi transcript, hãy ghi rõ ngôn ngữ phụ đề đang chọn và phiên bản Edge; không đăng mật khẩu, mã OTP, địa chỉ, số điện thoại hoặc dữ liệu riêng tư trong issue.
 
