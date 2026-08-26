@@ -44,7 +44,7 @@ SubYoutube is not an official product of YouTube, Google, or any AI provider. It
 | Comments and replies | Collects up to 500 items, including top-level comments and expanded replies. |
 | Separate sections | Keeps transcript and comments separate for independent copying. |
 | AI prompts | Creates transcript, comments, and combined prompts in Vietnamese or English. |
-| SRT export | Exports timestamped transcript cues as an `.SRT` subtitle file. |
+| SRT export | Exports timestamped transcript cues as a readable `.SRT` subtitle file with short cues, up to two lines per cue, and non-overlapping timestamps. |
 | Temporary saving | Preserves results by video when the popup is closed and reopened. |
 | Automatic cleanup | Removes scans older than 24 hours and retains up to 10 recent videos. |
 | Bilingual interface | Switches the extension interface between Vietnamese and English. |
@@ -90,7 +90,7 @@ SubYoutube không phải sản phẩm chính thức của YouTube, Google hay b�
 | Bình luận và phản hồi | Thu thập tối đa 500 mục, gồm bình luận chính và các phản hồi đã mở rộng. |
 | Hai khu vực riêng biệt | Transcript và bình luận được giữ riêng để sao chép độc lập. |
 | Prompt AI | Tạo prompt transcript, prompt bình luận và prompt tổng hợp bằng tiếng Việt hoặc tiếng Anh. |
-| Xuất SRT | Xuất transcript có timestamp thành file phụ đề `.SRT`. |
+| Xuất SRT | Xuất transcript có timestamp thành file phụ đề `.SRT` dễ đọc, tự chia cue tối đa 2 dòng và tránh chồng timestamp. |
 | Lưu tạm | Giữ kết quả theo từng video khi đóng và mở lại popup. |
 | Tự dọn dữ liệu | Tự xóa bản quét quá 24 giờ và giữ tối đa 10 video gần nhất. |
 | Giao diện song ngữ | Chuyển đổi giao diện giữa tiếng Việt và English. |
@@ -128,7 +128,7 @@ The official Microsoft Edge Add-ons installation link is listed below.
 
 | Item | Status |
 |---|---|
-| Current version | 4.9.0 |
+| Current version | 4.10.0 |
 | Manifest | V3 |
 | Primary test platform | Microsoft Edge Chromium |
 | Store status | Live on Microsoft Edge Add-ons |
