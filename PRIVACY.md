@@ -1,54 +1,64 @@
-# Chính sách quyền riêng tư của SubYoutube
+# SubYoutube Privacy Policy
 
-**Ngày cập nhật:** 26 tháng 8 năm 2026  
-**Tên extension:** SubYoutube  
-**Nhà phát hành:** SubYoutube
+**Last updated:** August 26, 2026  
+**Extension name:** SubYoutube  
+**Publisher:** Nguyễn Thanh Tùng (SubYoutube)
 
-## 1. Phạm vi
+## 1. Scope
 
-Chính sách này giải thích cách extension **SubYoutube** xử lý dữ liệu khi người dùng sử dụng extension trên Microsoft Edge hoặc trình duyệt Chromium tương thích.
+This Privacy Policy explains how the **SubYoutube** extension handles data when you use it on Microsoft Edge or a compatible Chromium-based browser.
 
-## 2. Dữ liệu được đọc
+## 2. Data the extension reads
 
-Sau khi người dùng chủ động mở extension trên một trang video YouTube và yêu cầu quét, SubYoutube có thể đọc các dữ liệu sau từ trang hiện tại:
+After you intentionally open the extension on a YouTube video page and request a scan, SubYoutube may read the following information from the current page:
 
-| Loại dữ liệu | Mục đích |
+| Data type | Purpose |
 |---|---|
-| Transcript hoặc phụ đề | Hiển thị transcript, tạo prompt và xuất file SRT. |
-| Bình luận và phản hồi đã mở rộng | Hiển thị, đếm và tạo prompt phân tích cộng đồng. |
-| URL và tiêu đề video hiện tại | Xác định video và lưu kết quả theo từng video. |
-| Ngôn ngữ giao diện | Ghi nhớ lựa chọn VI hoặc EN cho lần mở sau. |
+| Transcript or subtitles | Display the transcript, create prompts, and export an SRT file. |
+| Comments and expanded replies | Display, count, and create community-analysis prompts. |
+| Current video URL and title | Identify the video and save results by video. |
+| Interface language selection | Remember the VI or EN choice for the next session. |
 
-SubYoutube không yêu cầu hoặc thu thập mật khẩu, mã xác minh, thông tin thanh toán, danh bạ, vị trí, dữ liệu sức khỏe hoặc thông tin đăng nhập YouTube.
+SubYoutube does not request or collect passwords, verification codes, payment information, contacts, location data, health information, or YouTube login credentials.
 
-## 3. Cách sử dụng dữ liệu
+## 3. How data is used
 
-Dữ liệu được sử dụng để hiển thị transcript và bình luận trong popup, sao chép từng phần độc lập, tạo prompt tiếng Việt hoặc tiếng Anh, xuất transcript thành file `.SRT` và khôi phục kết quả khi popup được mở lại.
+The data is used to display transcripts and comments in the extension popup, copy each section separately, create Vietnamese or English prompts, export transcript cues as an `.SRT` file, and restore saved results when the popup is reopened.
 
-SubYoutube không tự động gửi transcript, bình luận hoặc prompt đến máy chủ riêng của SubYoutube, dịch vụ AI bên ngoài hoặc bên thứ ba. Người dùng tự quyết định việc sao chép dữ liệu sang ứng dụng hoặc dịch vụ khác.
+SubYoutube does not automatically send transcripts, comments, or prompts to a SubYoutube server, an external AI service, or another third party. You decide whether and when to copy data to another application or service.
 
-## 4. Lưu trữ và thời hạn
+## 4. Storage and retention
 
-Kết quả quét được lưu tạm trong bộ nhớ cục bộ của trình duyệt/extension theo ID video. Dữ liệu quét cũ hơn 24 giờ sẽ được tự động dọn dẹp và extension chỉ giữ tối đa 10 trạng thái video gần nhất. Dữ liệu có thể tiếp tục tồn tại trong bộ nhớ cục bộ cho đến khi hết thời hạn tự dọn hoặc khi người dùng xóa dữ liệu của extension trong cài đặt trình duyệt.
+Scan results are stored temporarily in the browser or extension's local storage and associated with the video ID. Results older than 24 hours are automatically removed, and the extension retains no more than 10 recent video states. Data may remain in local browser storage until the automatic cleanup occurs or you remove the extension's stored data through the browser settings.
 
-## 5. Chia sẻ dữ liệu
+## 5. Data sharing
 
-SubYoutube không bán, cho thuê hoặc chia sẻ dữ liệu transcript, bình luận, URL video hay prompt với bên thứ ba. Extension không có máy chủ riêng để nhận dữ liệu người dùng.
+SubYoutube does not sell, rent, or share transcript data, comments, video URLs, or prompts with third parties. The extension does not operate a private server that receives user data.
 
-Nếu người dùng chủ động sao chép nội dung sang một công cụ AI, việc xử lý tiếp theo sẽ tuân theo chính sách quyền riêng tư của công cụ mà người dùng lựa chọn. SubYoutube không kiểm soát hoặc chịu trách nhiệm cho việc xử lý dữ liệu của dịch vụ bên ngoài đó.
+If you intentionally copy content to an AI tool, any subsequent processing is governed by that tool's privacy policy. SubYoutube does not control or take responsibility for how an external service processes data after you choose to send it there.
 
-## 6. Quyền truy cập
+## 6. Permissions and access
 
-Extension sử dụng quyền truy cập tab hiện tại, scripting, tabs, storage và các miền YouTube cần thiết để thực hiện chức năng đã mô tả. Extension chỉ thực hiện việc đọc khi người dùng mở popup và yêu cầu lấy transcript hoặc bình luận. SubYoutube không sử dụng mã JavaScript từ xa.
+The extension uses access to the current tab, scripting, tabs, storage, and the necessary YouTube domains to provide the functions described in this policy. SubYoutube reads page content only after you open the extension and request a transcript or comments scan. The extension does not use remotely hosted JavaScript code.
 
-## 7. Trẻ em
+The permissions are used as follows:
 
-SubYoutube không hướng đến việc thu thập thông tin cá nhân của trẻ em và không yêu cầu người dùng cung cấp thông tin cá nhân để sử dụng chức năng chính.
+| Permission | Purpose |
+|---|---|
+| `activeTab` | Access the current tab after you intentionally open the popup and request a scan. |
+| `scripting` | Run the extraction logic for transcripts and comments on the current YouTube page. |
+| `tabs` | Read the current video URL and title so results can be identified and saved by video. |
+| `storage` | Temporarily save transcripts, comments, prompts, and timestamps in the browser. |
+| YouTube host permissions | Limit extension activity to the YouTube domains required for the feature. |
 
-## 8. Thay đổi chính sách
+## 7. Children
 
-Nếu cách xử lý dữ liệu thay đổi, chính sách này sẽ được cập nhật trước hoặc cùng thời điểm phiên bản mới được phát hành. Ngày cập nhật mới nhất sẽ luôn được hiển thị ở đầu tài liệu.
+SubYoutube is not designed to collect personal information from children and does not require personal information to use its primary features.
 
-## 9. Liên hệ
+## 8. Changes to this policy
 
-Để báo lỗi hoặc đặt câu hỏi về quyền riêng tư, vui lòng mở [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues) trong repository SubYoutube. Không đăng mật khẩu, mã OTP, số điện thoại, địa chỉ hoặc nội dung transcript/bình luận riêng tư trong issue.
+If the way SubYoutube handles data changes, this policy will be updated before or when the relevant new version is released. The latest update date is always shown at the top of this document.
+
+## 9. Contact
+
+To report a bug or ask a privacy question, please open a [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues) in the SubYoutube repository. Do not post passwords, one-time codes, phone numbers, addresses, or private transcript/comment content in an issue.
