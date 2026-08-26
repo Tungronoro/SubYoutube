@@ -52,7 +52,7 @@ Transcripts and comments are not automatically translated. They remain in the fo
 
 | Platform | Link |
 |---|---|
-| Microsoft Edge Add-ons | **Coming soon after store approval** |
+| Microsoft Edge Add-ons | [Install from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
 | Chrome Web Store | **Coming soon** |
 
 While the store review is pending, you can test the extension in Edge by opening `edge://extensions`, enabling **Developer mode**, selecting **Load unpacked**, and choosing the folder that directly contains `manifest.json`.
@@ -104,7 +104,7 @@ Transcript và bình luận không bị tự động dịch. Nội dung vẫn gi
 
 | Nền tảng | Liên kết |
 |---|---|
-| Microsoft Edge Add-ons | **Sắp cập nhật sau khi extension được xét duyệt** |
+| Microsoft Edge Add-ons | [Cài đặt từ Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
 | Chrome Web Store | **Sắp cập nhật** |
 
 Trong thời gian chờ cửa hàng xét duyệt, bạn có thể cài bản thử nghiệm trên Edge bằng cách mở `edge://extensions`, bật **Developer mode / Chế độ nhà phát triển**, chọn **Load unpacked / Tải giải nén**, rồi chọn thư mục có `manifest.json` ở cấp trực tiếp.
@@ -132,7 +132,7 @@ The links below will be updated after Microsoft Edge Add-ons and Chrome Web Stor
 
 | Store | Status | Installation link |
 |---|---|---|
-| Microsoft Edge Add-ons | Pending review | To be updated |
+| Microsoft Edge Add-ons | Live | [Install](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
 | Chrome Web Store | Not submitted | To be updated |
 
 ## Project status
