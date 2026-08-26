@@ -29,6 +29,10 @@
 
 _SubYoutube interface in English with transcript, comments, and prompt actions._
 
+![SubYoutube Large promotional tile](assets/subyoutube-large-promotional-tile.png)
+
+_SubYoutube promotional banner for the Microsoft Edge Add-ons listing._
+
 **SubYoutube** is a Manifest V3 extension for Microsoft Edge that extracts the transcript/subtitles and comments from the YouTube video currently open in your browser. It presents the data in a focused popup so you can copy it, research it, or create structured prompts for AI tools.
 
 SubYoutube is not an official product of YouTube, Google, or any AI provider. It only helps users read and organize data from a YouTube page that they intentionally open and scan.
