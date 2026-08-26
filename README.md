@@ -25,6 +25,10 @@
 
 ### Overview VI
 
+![Giao diện tiếng Việt của SubYoutube](assets/subyoutube-interface-vi.png)
+
+_Giao diện SubYoutube bằng tiếng Việt với transcript, bình luận và các nút tạo prompt._
+
 **SubYoutube** là extension Manifest V3 dành cho Microsoft Edge, giúp bạn lấy transcript/phụ đề và bình luận từ video YouTube đang mở. Nội dung được hiển thị rõ ràng trong popup để bạn sao chép, nghiên cứu hoặc tạo prompt có cấu trúc cho các công cụ AI.
 
 SubYoutube không phải sản phẩm chính thức của YouTube, Google hay bất kỳ nhà cung cấp AI nào. Extension chỉ hỗ trợ lấy và sắp xếp dữ liệu trên trang YouTube mà người dùng chủ động mở.
@@ -70,6 +74,10 @@ Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitH
 ## English
 
 ### Overview EN
+
+![SubYoutube English interface](assets/subyoutube-interface-en.png)
+
+_SubYoutube interface in English with transcript, comments, and prompt actions._
 
 **SubYoutube** is a Manifest V3 extension for Microsoft Edge that extracts the transcript/subtitles and comments from the YouTube video currently open in your browser. It presents the data in a focused popup so you can copy it, research it, or create structured prompts for AI tools.
 
