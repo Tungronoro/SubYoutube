@@ -1,73 +1,23 @@
 # SubYoutube
 
-> Lấy phụ đề, bình luận YouTube tích hợp Prompt tóm tắt.  
-> Extract YouTube subtitles and comments, then create copyable AI summary prompts.
+> Extract YouTube subtitles and comments, then create copyable AI summary prompts.  
+> Lấy phụ đề, bình luận YouTube tích hợp Prompt tóm tắt.
 
 ## Table of contents / Mục lục
 
-- [Tiếng Việt](#vietnamese)
-  - [Giới thiệu](#overview-vi)
-  - [Tính năng](#features-vi)
-  - [Cài đặt](#installation-vi)
-  - [Quyền và quyền riêng tư](#privacy-vi)
-  - [Phản hồi và hỗ trợ](#support-vi)
 - [English](#english)
   - [Overview](#overview-en)
   - [Features](#features-en)
   - [Installation](#installation-en)
   - [Permissions and privacy](#privacy-en)
   - [Feedback and support](#support-en)
+- [Tiếng Việt](#vietnamese)
+  - [Giới thiệu](#overview-vi)
+  - [Tính năng](#features-vi)
+  - [Cài đặt](#installation-vi)
+  - [Quyền và quyền riêng tư](#privacy-vi)
+  - [Phản hồi và hỗ trợ](#support-vi)
 - [Store links](#store-links)
-
----
-
-## Vietnamese
-
-### Overview VI
-
-![Giao diện tiếng Việt của SubYoutube](assets/subyoutube-interface-vi.png)
-
-_Giao diện SubYoutube bằng tiếng Việt với transcript, bình luận và các nút tạo prompt._
-
-**SubYoutube** là extension Manifest V3 dành cho Microsoft Edge, giúp bạn lấy transcript/phụ đề và bình luận từ video YouTube đang mở. Nội dung được hiển thị rõ ràng trong popup để bạn sao chép, nghiên cứu hoặc tạo prompt có cấu trúc cho các công cụ AI.
-
-SubYoutube không phải sản phẩm chính thức của YouTube, Google hay bất kỳ nhà cung cấp AI nào. Extension chỉ hỗ trợ lấy và sắp xếp dữ liệu trên trang YouTube mà người dùng chủ động mở.
-
-### Features VI
-
-| Tính năng | Mô tả |
-|---|---|
-| Transcript theo phụ đề đã chọn | Lấy transcript theo track phụ đề mà người dùng đang chọn trên YouTube. |
-| Bình luận và phản hồi | Thu thập tối đa 500 mục, gồm bình luận chính và các phản hồi đã mở rộng. |
-| Hai khu vực riêng biệt | Transcript và bình luận được giữ riêng để sao chép độc lập. |
-| Prompt AI | Tạo prompt transcript, prompt bình luận và prompt tổng hợp bằng tiếng Việt hoặc tiếng Anh. |
-| Xuất SRT | Xuất transcript có timestamp thành file phụ đề `.SRT`. |
-| Lưu tạm | Giữ kết quả theo từng video khi đóng và mở lại popup. |
-| Tự dọn dữ liệu | Tự xóa bản quét quá 24 giờ và giữ tối đa 10 video gần nhất. |
-| Giao diện song ngữ | Chuyển đổi giao diện giữa tiếng Việt và English. |
-
-Transcript và bình luận không bị tự động dịch. Nội dung vẫn giữ nguyên theo track phụ đề và dữ liệu YouTube mà người dùng chọn. Extension không tự động gửi nội dung sang dịch vụ AI; người dùng chủ động sao chép khi muốn sử dụng.
-
-### Installation VI
-
-| Nền tảng | Liên kết |
-|---|---|
-| Microsoft Edge Add-ons | **Sắp cập nhật sau khi extension được xét duyệt** |
-| Chrome Web Store | **Sắp cập nhật** |
-
-Trong thời gian chờ cửa hàng xét duyệt, bạn có thể cài bản thử nghiệm trên Edge bằng cách mở `edge://extensions`, bật **Developer mode / Chế độ nhà phát triển**, chọn **Load unpacked / Tải giải nén**, rồi chọn thư mục có `manifest.json` ở cấp trực tiếp.
-
-Sau khi extension được duyệt, các liên kết cài đặt chính thức sẽ được bổ sung tại phần [Store links](#store-links).
-
-### Privacy VI
-
-SubYoutube chỉ đọc transcript/phụ đề, bình luận, URL và tiêu đề video sau khi người dùng chủ động mở extension trên một trang video YouTube và yêu cầu quét. Dữ liệu được dùng để hiển thị, tạo prompt, sao chép, lưu tạm theo video và xuất SRT.
-
-Dữ liệu được xử lý trong trình duyệt và không tự động gửi đến máy chủ SubYoutube hoặc nhà cung cấp AI bên ngoài. Kết quả quét được lưu tạm cục bộ, tự dọn sau 24 giờ và tối đa 10 trạng thái video gần nhất được giữ lại. Xem [PRIVACY.md](PRIVACY.md) để biết đầy đủ cách xử lý dữ liệu.
-
-### Support VI
-
-Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). Khi báo lỗi transcript, hãy ghi rõ ngôn ngữ phụ đề đang chọn và phiên bản Edge; không đăng mật khẩu, mã OTP, địa chỉ, số điện thoại hoặc dữ liệu riêng tư trong issue.
 
 ---
 
@@ -121,8 +71,61 @@ If you find a bug or have a feature request, open a [GitHub Issue](https://githu
 
 ---
 
-## Store links
+---
 
+## Vietnamese
+
+### Overview VI
+
+![Giao diện tiếng Việt của SubYoutube](assets/subyoutube-interface-vi.png)
+
+_Giao diện SubYoutube bằng tiếng Việt với transcript, bình luận và các nút tạo prompt._
+
+**SubYoutube** là extension Manifest V3 dành cho Microsoft Edge, giúp bạn lấy transcript/phụ đề và bình luận từ video YouTube đang mở. Nội dung được hiển thị rõ ràng trong popup để bạn sao chép, nghiên cứu hoặc tạo prompt có cấu trúc cho các công cụ AI.
+
+SubYoutube không phải sản phẩm chính thức của YouTube, Google hay bất kỳ nhà cung cấp AI nào. Extension chỉ hỗ trợ lấy và sắp xếp dữ liệu trên trang YouTube mà người dùng chủ động mở.
+
+### Features VI
+
+| Tính năng | Mô tả |
+|---|---|
+| Transcript theo phụ đề đã chọn | Lấy transcript theo track phụ đề mà người dùng đang chọn trên YouTube. |
+| Bình luận và phản hồi | Thu thập tối đa 500 mục, gồm bình luận chính và các phản hồi đã mở rộng. |
+| Hai khu vực riêng biệt | Transcript và bình luận được giữ riêng để sao chép độc lập. |
+| Prompt AI | Tạo prompt transcript, prompt bình luận và prompt tổng hợp bằng tiếng Việt hoặc tiếng Anh. |
+| Xuất SRT | Xuất transcript có timestamp thành file phụ đề `.SRT`. |
+| Lưu tạm | Giữ kết quả theo từng video khi đóng và mở lại popup. |
+| Tự dọn dữ liệu | Tự xóa bản quét quá 24 giờ và giữ tối đa 10 video gần nhất. |
+| Giao diện song ngữ | Chuyển đổi giao diện giữa tiếng Việt và English. |
+
+Transcript và bình luận không bị tự động dịch. Nội dung vẫn giữ nguyên theo track phụ đề và dữ liệu YouTube mà người dùng chọn. Extension không tự động gửi nội dung sang dịch vụ AI; người dùng chủ động sao chép khi muốn sử dụng.
+
+### Installation VI
+
+| Nền tảng | Liên kết |
+|---|---|
+| Microsoft Edge Add-ons | **Sắp cập nhật sau khi extension được xét duyệt** |
+| Chrome Web Store | **Sắp cập nhật** |
+
+Trong thời gian chờ cửa hàng xét duyệt, bạn có thể cài bản thử nghiệm trên Edge bằng cách mở `edge://extensions`, bật **Developer mode / Chế độ nhà phát triển**, chọn **Load unpacked / Tải giải nén**, rồi chọn thư mục có `manifest.json` ở cấp trực tiếp.
+
+Sau khi extension được duyệt, các liên kết cài đặt chính thức sẽ được bổ sung tại phần [Store links](#store-links).
+
+### Privacy VI
+
+SubYoutube chỉ đọc transcript/phụ đề, bình luận, URL và tiêu đề video sau khi người dùng chủ động mở extension trên một trang video YouTube và yêu cầu quét. Dữ liệu được dùng để hiển thị, tạo prompt, sao chép, lưu tạm theo video và xuất SRT.
+
+Dữ liệu được xử lý trong trình duyệt và không tự động gửi đến máy chủ SubYoutube hoặc nhà cung cấp AI bên ngoài. Kết quả quét được lưu tạm cục bộ, tự dọn sau 24 giờ và tối đa 10 trạng thái video gần nhất được giữ lại. Xem [PRIVACY.md](PRIVACY.md) để biết đầy đủ cách xử lý dữ liệu.
+
+### Support VI
+
+Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). Khi báo lỗi transcript, hãy ghi rõ ngôn ngữ phụ đề đang chọn và phiên bản Edge; không đăng mật khẩu, mã OTP, địa chỉ, số điện thoại hoặc dữ liệu riêng tư trong issue.
+
+---
+
+---
+
+## Store links
 Các liên kết bên dưới sẽ được cập nhật sau khi Microsoft Edge Add-ons và Chrome Web Store cấp URL chính thức.
 
 The links below will be updated after Microsoft Edge Add-ons and Chrome Web Store provide the official product URLs.
