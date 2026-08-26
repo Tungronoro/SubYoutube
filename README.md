@@ -79,9 +79,6 @@ If you find a bug or have a feature request, open a [GitHub Issue](https://githu
 
 _Giao diện SubYoutube bằng tiếng Việt với transcript, bình luận và các nút tạo prompt._
 
-![Small promotional tile tiếng Việt của SubYoutube](assets/subyoutube-small-promotional-tile-vi.png)
-
-![Large promotional tile tiếng Việt của SubYoutube](assets/subyoutube-large-promotional-tile-vi.png)
 
 _Các promotional tile tiếng Việt dành cho listing SubYoutube trên Microsoft Edge Add-ons._
 
