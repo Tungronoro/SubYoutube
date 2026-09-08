@@ -1,6 +1,6 @@
 # SubYoutube Privacy Policy
 
-**Last updated:** August 26, 2026  
+**Last updated:** September 9, 2026  
 **Extension name:** SubYoutube  
 **Publisher:** Nguyễn Thanh Tùng (SubYoutube)
 
@@ -16,7 +16,7 @@ After you intentionally open the extension on a YouTube video page and request a
 |---|---|
 | Transcript or subtitles | Display the transcript, create prompts, and export an SRT file. |
 | Comments and expanded replies | Display, count, and create community-analysis prompts. |
-| Current video URL and title | Identify the video and save results by video. |
+| Current video URL and title | Identify the video, save results by video, and send the URL to the SubVoice desktop app when you click the video download button. |
 | Interface language selection | Remember the VI or EN choice for the next session. |
 
 SubYoutube does not request or collect passwords, verification codes, payment information, contacts, location data, health information, or YouTube login credentials.
@@ -25,7 +25,7 @@ SubYoutube does not request or collect passwords, verification codes, payment in
 
 The data is used to display transcripts and comments in the extension popup, copy each section separately, create Vietnamese or English prompts, export transcript cues as an `.SRT` file, and restore saved results when the popup is reopened.
 
-SubYoutube does not automatically send transcripts, comments, or prompts to a SubYoutube server, an external AI service, or another third party. You decide whether and when to copy data to another application or service.
+SubYoutube does not automatically send transcripts, comments, or prompts to a SubYoutube server, an external AI service, or another third party. The only local handoff occurs when you use the video download feature: the current video URL is sent to the SubVoice desktop app running on your computer so that app can download the video on your behalf. This happens only after you click the download button.
 
 ## 4. Storage and retention
 
@@ -33,7 +33,7 @@ Scan results are stored temporarily in the browser or extension's local storage 
 
 ## 5. Data sharing
 
-SubYoutube does not sell, rent, or share transcript data, comments, video URLs, or prompts with third parties. The extension does not operate a private server that receives user data.
+SubYoutube does not sell, rent, or share transcript data, comments, video URLs, or prompts with third parties. The extension does not operate a private server that receives user data. Sending the current video URL to the SubVoice desktop app on your own device is a local action you trigger, not sharing with a third party.
 
 If you intentionally copy content to an AI tool, any subsequent processing is governed by that tool's privacy policy. SubYoutube does not control or take responsibility for how an external service processes data after you choose to send it there.
 
@@ -50,6 +50,7 @@ The permissions are used as follows:
 | `tabs` | Read the current video URL and title so results can be identified and saved by video. |
 | `storage` | Temporarily save transcripts, comments, prompts, and timestamps in the browser. |
 | YouTube host permissions | Limit extension activity to the YouTube domains required for the feature. |
+| SubVoice local host permission | Lets the video download feature reach the local SubVoice app at `http://127.0.0.1:47831` to hand off the current video URL. No remote server is contacted. |
 
 ## 7. Children
 

@@ -49,6 +49,7 @@ SubYoutube is not an official product of YouTube, Google, or any AI provider. It
 | Automatic cleanup | Removes scans older than 24 hours and retains up to 10 recent videos. |
 | Bilingual interface | Switches the extension interface between Vietnamese and English. |
 | Store listing locales | Provides English and Vietnamese listing content for Microsoft Edge Add-ons. |
+| Video download with SubVoice | Sends the current video URL to the SubVoice desktop app, which scans it and downloads the video with the quality, audio, and subtitle track you choose. Requires the SubVoice app to be installed. |
 
 Transcripts and comments are not automatically translated. They remain in the form provided by the YouTube caption track and content selected by the user. The extension does not automatically send content to an AI service; the user chooses when to copy it elsewhere.
 
@@ -57,12 +58,13 @@ Transcripts and comments are not automatically translated. They remain in the fo
 | Platform | Link |
 |---|---|
 | Microsoft Edge Add-ons | [Install from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
+| SubVoice desktop app (optional) | Used by the video download feature for YouTube videos. Install it from [SubVoice on GitHub](https://github.com/Tungronoro/SubVoice/releases). |
 
 ### Privacy
 
 SubYoutube reads transcript/subtitle content, comments, the current video URL, and the current video title only after the user opens the extension on a YouTube video and requests a scan. This data is used to display content, create prompts, copy text, save temporary video states, and export SRT files.
 
-Data is processed in the browser and is not automatically sent to a SubYoutube server or an external AI provider. Scan results are stored locally, automatically pruned after 24 hours, and limited to the 10 most recent video states. See [PRIVACY.md](PRIVACY.md) for the complete data-handling policy.
+Data is processed in the browser and is not automatically sent to a SubYoutube server or an external AI provider. The video download feature sends the current video URL to the SubVoice desktop app on your computer only after you click the download button. Scan results are stored locally, automatically pruned after 24 hours, and limited to the 10 most recent video states. See [PRIVACY.md](PRIVACY.md) for the complete data-handling policy.
 
 ### Support
 
@@ -99,6 +101,7 @@ SubYoutube không phải sản phẩm chính thức của YouTube, Google hay b�
 | Tự dọn dữ liệu | Tự xóa bản quét quá 24 giờ và giữ tối đa 10 video gần nhất. |
 | Giao diện song ngữ | Chuyển đổi giao diện giữa tiếng Việt và English. |
 | Ngôn ngữ listing | Hỗ trợ nội dung listing tiếng Anh và tiếng Việt trên Microsoft Edge Add-ons. |
+| Tải video với SubVoice | Gửi URL video đang mở sang ứng dụng desktop SubVoice để quét và tải video với chất lượng, âm thanh và track phụ đề bạn chọn. Cần cài đặt ứng dụng SubVoice. |
 
 Transcript và bình luận không bị tự động dịch. Nội dung vẫn giữ nguyên theo track phụ đề và dữ liệu YouTube mà người dùng chọn. Extension không tự động gửi nội dung sang dịch vụ AI; người dùng chủ động sao chép khi muốn sử dụng.
 
@@ -107,12 +110,13 @@ Transcript và bình luận không bị tự động dịch. Nội dung vẫn gi
 | Nền tảng | Liên kết |
 |---|---|
 | Microsoft Edge Add-ons | [Cài đặt từ Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
+| Ứng dụng desktop SubVoice (tùy chọn) | Dùng cho tính năng tải video YouTube. Tải từ [SubVoice trên GitHub](https://github.com/Tungronoro/SubVoice/releases). |
 
 ### Quyền riêng tư
 
 SubYoutube chỉ đọc transcript/phụ đề, bình luận, URL và tiêu đề video sau khi người dùng chủ động mở extension trên một trang video YouTube và yêu cầu quét. Dữ liệu được dùng để hiển thị, tạo prompt, sao chép, lưu tạm theo video và xuất SRT.
 
-Dữ liệu được xử lý trong trình duyệt và không tự động gửi đến máy chủ SubYoutube hoặc nhà cung cấp AI bên ngoài. Kết quả quét được lưu tạm cục bộ, tự dọn sau 24 giờ và tối đa 10 trạng thái video gần nhất được giữ lại. Xem [PRIVACY.md](PRIVACY.md) để biết đầy đủ cách xử lý dữ liệu.
+Dữ liệu được xử lý trong trình duyệt và không tự động gửi đến máy chủ SubYoutube hoặc nhà cung cấp AI bên ngoài. Tính năng tải video chỉ gửi URL video đang mở sang ứng dụng desktop SubVoice trên chính máy bạn sau khi bạn bấm nút tải. Kết quả quét được lưu tạm cục bộ, tự dọn sau 24 giờ và tối đa 10 trạng thái video gần nhất được giữ lại. Xem [PRIVACY.md](PRIVACY.md) để biết đầy đủ cách xử lý dữ liệu.
 
 ### Hỗ trợ
 
@@ -132,7 +136,7 @@ The official Microsoft Edge Add-ons installation link is listed below.
 
 | Item | Status |
 |---|---|
-| Current version | 4.11.1 |
+| Current version | 4.12.1 |
 | Manifest | V3 |
 | Primary test platform | Microsoft Edge Chromium |
 | Store status | Live on Microsoft Edge Add-ons |
