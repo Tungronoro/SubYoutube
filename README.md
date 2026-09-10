@@ -69,4 +69,93 @@ Data is processed in the browser and is not automatically sent to a SubYoutube s
 
 ### Support
 
-If you find a bug or have a feature request, open a [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). When reporting a transcript issue, mention the selected YouTube caption
+If you find a bug or have a feature request, open a [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). When reporting a transcript issue, mention the selected YouTube caption language and your Edge version. Do not post passwords, one-time codes, addresses, phone numbers, or private content in an issue.
+
+**❤️ Love it? [Donate to the developer](https://tungronoro.github.io/SubYoutube/donate.html) and help keep SubYoutube free.**
+
+
+---
+
+## Vietnamese
+
+### Giới thiệu
+
+![Giao diện tiếng Việt của SubYoutube](assets/subyoutube-interface-vi.png)
+
+_Giao diện SubYoutube bằng tiếng Việt với transcript, bình luận và các nút tạo prompt._
+
+
+_Các promotional tile tiếng Việt dành cho listing SubYoutube trên Microsoft Edge Add-ons._
+
+**SubYoutube** là extension Manifest V3 dành cho Microsoft Edge, giúp bạn lấy transcript/phụ đề và bình luận từ video YouTube đang mở. Nội dung được hiển thị rõ ràng trong popup để bạn sao chép, nghiên cứu hoặc tạo prompt có cấu trúc cho các công cụ AI.
+
+SubYoutube không phải sản phẩm chính thức của YouTube, Google hay bất kỳ nhà cung cấp AI nào. Extension chỉ hỗ trợ lấy và sắp xếp dữ liệu trên trang YouTube mà người dùng chủ động mở.
+
+### Tính năng
+
+| Tính năng | Mô tả |
+|---|---|
+| Transcript theo phụ đề đã chọn | Lấy transcript theo track phụ đề mà người dùng đang chọn trên YouTube. |
+| Bình luận và phản hồi | Thu thập tối đa 500 mục, gồm bình luận chính và các phản hồi đã mở rộng. |
+| Hai khu vực riêng biệt | Transcript và bình luận được giữ riêng để sao chép độc lập. |
+| Prompt AI | Tạo prompt transcript, prompt bình luận và prompt tổng hợp bằng tiếng Việt hoặc tiếng Anh. |
+| Xuất SRT | Xuất transcript có timestamp thành file phụ đề `.SRT` dễ đọc, tự chia cue tối đa 2 dòng và tránh chồng timestamp. |
+| Lưu tạm | Giữ kết quả theo từng video khi đóng và mở lại popup. |
+| Tự dọn dữ liệu | Tự xóa bản quét quá 24 giờ và giữ tối đa 10 video gần nhất. |
+| Giao diện song ngữ | Chuyển đổi giao diện giữa tiếng Việt và English. |
+| Ngôn ngữ listing | Hỗ trợ nội dung listing tiếng Anh và tiếng Việt trên Microsoft Edge Add-ons. |
+| Tải video với SubVoice | Gửi URL video đang mở sang ứng dụng desktop SubVoice để quét và tải video với chất lượng, âm thanh và track phụ đề bạn chọn. Cần cài đặt ứng dụng SubVoice. |
+
+Transcript và bình luận không bị tự động dịch. Nội dung vẫn giữ nguyên theo track phụ đề và dữ liệu YouTube mà người dùng chọn. Extension không tự động gửi nội dung sang dịch vụ AI; người dùng chủ động sao chép khi muốn sử dụng.
+
+### Cài đặt
+
+| Nền tảng | Liên kết |
+|---|---|
+| Microsoft Edge Add-ons | [Cài đặt từ Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
+| Ứng dụng desktop SubVoice (tùy chọn) | Dùng cho tính năng tải video YouTube. Tải từ [SubVoice trên GitHub](https://github.com/Tungronoro/SubVoice/releases). |
+
+### Quyền riêng tư
+
+SubYoutube chỉ đọc transcript/phụ đề, bình luận, URL và tiêu đề video sau khi người dùng chủ động mở extension trên một trang video YouTube và yêu cầu quét. Dữ liệu được dùng để hiển thị, tạo prompt, sao chép, lưu tạm theo video và xuất SRT.
+
+Dữ liệu được xử lý trong trình duyệt và không tự động gửi đến máy chủ SubYoutube hoặc nhà cung cấp AI bên ngoài. Tính năng tải video chỉ gửi URL video đang mở sang ứng dụng desktop SubVoice trên chính máy bạn sau khi bạn bấm nút tải. Kết quả quét được lưu tạm cục bộ, tự dọn sau 24 giờ và tối đa 10 trạng thái video gần nhất được giữ lại. Xem [PRIVACY.md](PRIVACY.md) để biết đầy đủ cách xử lý dữ liệu.
+
+### Hỗ trợ
+
+Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). Khi báo lỗi transcript, hãy ghi rõ ngôn ngữ phụ đề đang chọn và phiên bản Edge; không đăng mật khẩu, mã OTP, địa chỉ, số điện thoại hoặc dữ liệu riêng tư trong issue.
+
+**❤️ Thấy hữu ích?** [Ủng hộ tác giả một ly cà phê](https://tungronoro.github.io/SubYoutube/donate.html) để SubYoutube luôn miễn phí.
+
+---
+
+
+## Store links
+The official Microsoft Edge Add-ons installation link is listed below.
+
+| Store | Status | Installation link |
+|---|---|---|
+| Microsoft Edge Add-ons | Live | [Install](https://microsoftedge.microsoft.com/addons/detail/subyoutube/gikmngbafagnnfognkcdjnhnljahbakc) |
+
+## Project status
+
+| Item | Status |
+|---|---|
+| Current version | 4.13.0 |
+| Manifest | V3 |
+| Primary test platform | Microsoft Edge Chromium |
+| Store status | Live on Microsoft Edge Add-ons |
+
+## ❤️ Donate / Ủng hộ
+
+The developer loves to give ❤️, and coffee keeps the keyboard clicking. If **SubYoutube (or SubVoice / SubQuick)** helps your work or studies, a small donation is deeply appreciated:
+
+[❤️ Support the author / Ủng hộ tác giả](https://tungronoro.github.io/SubYoutube/donate.html)
+
+> **MB Bank** · Số TK **0020118332203** · Chủ TK **NGUYEN THANH TUNG** · PayPal **paypal.me/tungronoro**
+
+---
+
+## License
+
+License information will be added together with the official release policy.
