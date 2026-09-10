@@ -1,0 +1,230 @@
+﻿<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ủng hộ tác giả SubYoutube</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #eef1f6; --card: #ffffff; --ink: #172033; --muted: #687386; --line: #e3e8f1;
+      --soft: #f5f7fb; --primary: #d9233f; --primary-dark: #b91731; --success: #16845a;
+      --shadow: 0 2px 12px rgba(23, 32, 51, .08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background: linear-gradient(180deg, #eef1f6 0%, #f7f8fb 100%);
+      color: var(--ink); min-height: 100vh;
+      font-family: "Segoe UI", Inter, Arial, sans-serif; font-size: 14px; line-height: 1.5;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .wrap { max-width: 660px; width: 100%; margin: 0 auto; padding: 24px 16px; }
+
+    header {
+      display: flex; align-items: center; gap: 12px;
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      box-shadow: var(--shadow); padding: 10px 12px;
+    }
+    .brand {
+      flex: 0 0 auto; width: 38px; height: 38px; border-radius: 10px; overflow: hidden;
+      background: var(--primary); display: flex; align-items: center; justify-content: center;
+    }
+    .brand img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .brand-copy { flex: 1; min-width: 0; }
+    .brand-copy h1 { font-size: 15px; line-height: 1.2; }
+    .brand-copy p { font-size: 12px; color: var(--muted); }
+    .lang-switch {
+      flex: 0 0 auto; display: inline-flex; gap: 2px; padding: 3px;
+      background: var(--soft); border: 1px solid var(--line); border-radius: 8px;
+    }
+    .lang-switch button {
+      border: 0; background: transparent; padding: 5px 9px; border-radius: 6px;
+      font-size: 11px; font-weight: 700; color: var(--muted); cursor: pointer;
+    }
+    .lang-switch button:hover { background: #e5eaf3; color: var(--ink); }
+    .lang-switch button.active { background: var(--primary); color: #fff; }
+
+    .grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 12px; margin-top: 12px; }
+    @media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
+
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+      box-shadow: var(--shadow); padding: 16px 18px;
+    }
+    .card h3 {
+      display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 800; margin-bottom: 8px;
+    }
+    .tick { flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: var(--primary); }
+
+    .bank-list { }
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 7px 0; border-bottom: 1px dashed var(--line); }
+    .row:last-child { border-bottom: 0; }
+    .row dt { color: var(--muted); font-size: 13px; flex: 0 0 auto; }
+    .row dd { font-weight: 700; font-size: 14px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 70%; }
+
+    .acct { margin-top: 10px; }
+    .acct-label { display: block; color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+    .acct-box {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--soft); border: 1px solid var(--line); border-radius: 10px; padding: 7px 8px 7px 12px;
+    }
+    .acct-num {
+      flex: 1; min-width: 0; font-family: Consolas, Menlo, monospace; font-size: 15px; font-weight: 700;
+      letter-spacing: .5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .copy-btn {
+      flex: 0 0 auto; border: 1px solid var(--line); background: var(--card); color: var(--ink);
+      border-radius: 8px; padding: 5px 11px; font-size: 12px; font-weight: 700; cursor: pointer;
+    }
+    .copy-btn:hover { background: #e9edf2; }
+    .copy-btn.copied { background: var(--success); border-color: var(--success); color: #fff; }
+
+    .qr-card { display: flex; flex-direction: column; align-items: center; text-align: center; }
+    .qr-frame {
+      width: 100%; display: flex; align-items: center; justify-content: center;
+      border-radius: 10px; border: 1px solid var(--line); padding: 8px; background: #fff;
+    }
+    .qr-frame img { width: 100%; max-width: 170px; height: auto; display: block; }
+
+    .paypal {
+      margin-top: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+      box-shadow: var(--shadow); padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+    }
+    .paypal .hh { display: flex; align-items: center; gap: 8px; }
+    .paypal .hh h3 { font-size: 14px; font-weight: 800; }
+    .paypal a {
+      display: inline-flex; align-items: center; gap: 6px; color: var(--primary); font-weight: 800;
+      text-decoration: none; font-size: 14px; padding: 7px 13px; border: 1px solid #f5cdd4;
+      border-radius: 9px; background: #fff5f6;
+    }
+    .paypal a:hover { background: #fde7ea; border-color: #ed9eab; }
+
+    .foot { text-align: center; color: var(--muted); font-size: 11px; padding: 14px 8px 0; }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark; --card: #182131; --ink: #f0f3f8; --muted: #a6b0c0;
+        --line: #2c3a52; --soft: #10161f; --shadow: 0 2px 12px rgba(0, 0, 0, .35);
+      }
+      body { background: #0e1520; }
+      .lang-switch button:hover { background: #2b3a55; color: #fff; }
+      .copy-btn:hover { background: #2b3a55; }
+      .qr-frame { background: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><img src="icon48.png" alt="SubYoutube"></div>
+      <div class="brand-copy">
+        <h1>SubYoutube</h1>
+        <p data-i18n="nav">❤️ Ủng hộ tác giả</p>
+      </div>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button id="langVi" class="active" type="button">VI</button>
+        <button id="langEn" type="button">EN</button>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h3><span class="tick"></span><span data-i18n="bankTitle">Chuyển khoản ngân hàng</span></h3>
+        <dl class="bank">
+          <div class="row"><dt data-i18n="bankLabel">Ngân hàng</dt><dd>MB Bank</dd></div>
+          <div class="row"><dt data-i18n="holderLabel">Chủ tài khoản</dt><dd>NGUYEN THANH TUNG</dd></div>
+        </dl>
+        <div class="acct">
+          <span class="acct-label" data-i18n="accountLabel">Số tài khoản</span>
+          <div class="acct-box">
+            <span class="acct-num" id="accountNumber">0020118332203</span>
+            <button id="copyAccount" class="copy-btn" type="button" data-i18n="copy">Sao chép</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card qr-card">
+        <h3><span class="tick"></span><span data-i18n="qrTitle">Quét mã QR</span></h3>
+        <div class="qr-frame">
+          <img src="qr_mbbank.png" alt="QR MB Bank">
+        </div>
+      </section>
+    </div>
+
+    <div class="paypal">
+      <div class="hh">
+        <span class="tick"></span>
+        <h3 data-i18n="paypalTitle">Ủng hộ qua PayPal</h3>
+      </div>
+      <a href="https://paypal.me/tungronoro" target="_blank" rel="noopener noreferrer">💙 paypal.me/tungronoro</a>
+    </div>
+
+    <div class="foot" data-i18n="footer">Cảm ơn bạn đã dùng SubYoutube! ❤️</div>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+      var T = {
+        vi: {
+          nav: 'Ủng hộ tác giả', heading: 'Ủng hộ tác giả',
+          bankTitle: 'Chuyển khoản ngân hàng', bankLabel: 'Ngân hàng', holderLabel: 'Chủ tài khoản',
+          accountLabel: 'Số tài khoản', copy: 'Sao chép', copied: 'Đã sao chép!',
+          qrTitle: 'Quét mã QR',
+          paypalTitle: 'Ủng hộ qua PayPal',
+          footer: 'Cảm ơn bạn đã dùng SubYoutube! ❤️'
+        },
+        en: {
+          nav: 'Support the author', bankTitle: 'Bank transfer', bankLabel: 'Bank', holderLabel: 'Account holder',
+          accountLabel: 'Account number', copy: 'Copy', copied: 'Copied!',
+          qrTitle: 'Scan QR code',
+          paypalTitle: 'Donate via PayPal',
+          footer: 'Thank you for using SubYoutube! ❤️'
+        }
+      };
+      var lang = (function () {
+        try {
+          var saved = localStorage.getItem('subyoutube-donate-lang');
+          return saved === 'en' ? 'en' : (navigator.language && navigator.language.toLowerCase().indexOf('en') === 0 ? 'en' : 'vi');
+        } catch (e) { return 'vi'; }
+      })();
+      function apply(l) {
+        lang = l === 'en' ? 'en' : 'vi';
+        document.documentElement.lang = lang;
+        document.getElementById('langVi').classList.toggle('active', lang === 'vi');
+        document.getElementById('langEn').classList.toggle('active', lang === 'en');
+        document.querySelectorAll('[data-i18n]').forEach(function (n) {
+          var v = T[lang][n.getAttribute('data-i18n')];
+          if (v !== undefined) n.textContent = v;
+        });
+        try { localStorage.setItem('subyoutube-donate-lang', lang); } catch (e) {}
+      }
+      document.getElementById('langVi').addEventListener('click', function () { apply('vi'); });
+      document.getElementById('langEn').addEventListener('click', function () { apply('en'); });
+
+      document.getElementById('copyAccount').addEventListener('click', function () {
+        var text = document.getElementById('accountNumber').textContent;
+        function done() {
+          var btn = document.getElementById('copyAccount');
+          btn.textContent = lang === 'vi' ? 'Đã sao chép!' : 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function () {
+            btn.textContent = lang === 'vi' ? 'Sao chép' : 'Copy';
+            btn.classList.remove('copied');
+          }, 1600);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done, done);
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = text; document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(ta); done();
+        }
+      });
+      apply(lang);
+    })();
+  </script>
+</body>
+</html>
