@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
@@ -9,71 +9,71 @@
       color-scheme: light;
       --bg: #eef1f6; --card: #ffffff; --ink: #172033; --muted: #687386; --line: #e3e8f1;
       --soft: #f5f7fb; --primary: #d9233f; --primary-dark: #b91731; --success: #16845a;
-      --shadow: 0 2px 12px rgba(23, 32, 51, .08);
+      --shadow: 0 3px 18px rgba(23, 32, 51, .08);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background: linear-gradient(180deg, #eef1f6 0%, #f7f8fb 100%);
       color: var(--ink); min-height: 100vh;
-      font-family: "Segoe UI", Inter, Arial, sans-serif; font-size: 14px; line-height: 1.5;
+      font-family: "Segoe UI", Inter, Arial, sans-serif; font-size: 21px; line-height: 1.5;
     }
-    .wrap { max-width: 660px; margin: 0 auto; padding: 14px 16px 22px; }
+    .wrap { max-width: 990px; margin: 0 auto; padding: 21px 24px 33px; }
 
     header {
-      display: flex; align-items: center; gap: 12px;
-      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-      box-shadow: var(--shadow); padding: 10px 12px;
+      display: flex; align-items: center; gap: 18px;
+      background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+      box-shadow: var(--shadow); padding: 15px 18px;
     }
     .brand {
-      flex: 0 0 auto; width: 38px; height: 38px; border-radius: 10px; overflow: hidden;
+      flex: 0 0 auto; width: 57px; height: 57px; border-radius: 15px; overflow: hidden;
       background: var(--primary); display: flex; align-items: center; justify-content: center;
     }
     .brand img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .brand-copy { flex: 1; min-width: 0; }
-    .brand-copy h1 { font-size: 15px; line-height: 1.2; }
-    .brand-copy p { font-size: 12px; color: var(--muted); }
+    .brand-copy h1 { font-size: 22px; line-height: 1.2; }
+    .brand-copy p { font-size: 18px; color: var(--muted); }
     .lang-switch {
-      flex: 0 0 auto; display: inline-flex; gap: 2px; padding: 3px;
-      background: var(--soft); border: 1px solid var(--line); border-radius: 8px;
+      flex: 0 0 auto; display: inline-flex; gap: 3px; padding: 5px;
+      background: var(--soft); border: 1px solid var(--line); border-radius: 12px;
     }
     .lang-switch button {
-      border: 0; background: transparent; padding: 5px 9px; border-radius: 6px;
-      font-size: 11px; font-weight: 700; color: var(--muted); cursor: pointer;
+      border: 0; background: transparent; padding: 8px 14px; border-radius: 9px;
+      font-size: 16px; font-weight: 700; color: var(--muted); cursor: pointer;
     }
     .lang-switch button:hover { background: #e5eaf3; color: var(--ink); }
     .lang-switch button.active { background: var(--primary); color: #fff; }
 
-    .grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 12px; margin-top: 12px; }
-    @media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
+    .grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; margin-top: 18px; }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
 
     .card {
-      background: var(--card); border: 1px solid var(--line); border-radius: 14px;
-      box-shadow: var(--shadow); padding: 16px 18px;
+      background: var(--card); border: 1px solid var(--line); border-radius: 21px;
+      box-shadow: var(--shadow); padding: 24px 27px;
     }
     .card h3 {
-      display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 800; margin-bottom: 8px;
+      display: flex; align-items: center; gap: 12px; font-size: 22px; font-weight: 800; margin-bottom: 12px;
     }
-    .tick { flex: 0 0 auto; width: 8px; height: 8px; border-radius: 50%; background: var(--primary); }
+    .tick { flex: 0 0 auto; width: 12px; height: 12px; border-radius: 50%; background: var(--primary); }
 
     .bank-list { }
-    .row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 7px 0; border-bottom: 1px dashed var(--line); }
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 21px; padding: 10px 0; border-bottom: 1px dashed var(--line); }
     .row:last-child { border-bottom: 0; }
-    .row dt { color: var(--muted); font-size: 13px; flex: 0 0 auto; }
-    .row dd { font-weight: 700; font-size: 14px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 70%; }
+    .row dt { color: var(--muted); font-size: 19px; flex: 0 0 auto; }
+    .row dd { font-weight: 700; font-size: 21px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 70%; }
 
-    .acct { margin-top: 10px; }
-    .acct-label { display: block; color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+    .acct { margin-top: 15px; }
+    .acct-label { display: block; color: var(--muted); font-size: 19px; margin-bottom: 9px; }
     .acct-box {
-      display: flex; align-items: center; gap: 8px;
-      background: var(--soft); border: 1px solid var(--line); border-radius: 10px; padding: 7px 8px 7px 12px;
+      display: flex; align-items: center; gap: 12px;
+      background: var(--soft); border: 1px solid var(--line); border-radius: 15px; padding: 10px 12px 10px 18px;
     }
     .acct-num {
-      flex: 1; min-width: 0; font-family: Consolas, Menlo, monospace; font-size: 15px; font-weight: 700;
-      letter-spacing: .5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      flex: 1; min-width: 0; font-family: Consolas, Menlo, monospace; font-size: 22px; font-weight: 700;
+      letter-spacing: .75px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
     .copy-btn {
       flex: 0 0 auto; border: 1px solid var(--line); background: var(--card); color: var(--ink);
-      border-radius: 8px; padding: 5px 11px; font-size: 12px; font-weight: 700; cursor: pointer;
+      border-radius: 12px; padding: 8px 16px; font-size: 18px; font-weight: 700; cursor: pointer;
     }
     .copy-btn:hover { background: #e9edf2; }
     .copy-btn.copied { background: var(--success); border-color: var(--success); color: #fff; }
@@ -81,29 +81,29 @@
     .qr-card { display: flex; flex-direction: column; align-items: center; text-align: center; }
     .qr-frame {
       width: 100%; display: flex; align-items: center; justify-content: center;
-      border-radius: 10px; border: 1px solid var(--line); padding: 8px; background: #fff;
+      border-radius: 15px; border: 1px solid var(--line); padding: 12px; background: #fff;
     }
-    .qr-frame img { width: 100%; max-width: 170px; height: auto; display: block; }
+    .qr-frame img { width: 100%; max-width: 255px; height: auto; display: block; }
 
     .paypal {
-      margin-top: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 14px;
-      box-shadow: var(--shadow); padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+      margin-top: 18px; background: var(--card); border: 1px solid var(--line); border-radius: 21px;
+      box-shadow: var(--shadow); padding: 21px 27px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;
     }
-    .paypal .hh { display: flex; align-items: center; gap: 8px; }
-    .paypal .hh h3 { font-size: 14px; font-weight: 800; }
+    .paypal .hh { display: flex; align-items: center; gap: 12px; }
+    .paypal .hh h3 { font-size: 21px; font-weight: 800; }
     .paypal a {
-      display: inline-flex; align-items: center; gap: 6px; color: var(--primary); font-weight: 800;
-      text-decoration: none; font-size: 14px; padding: 7px 13px; border: 1px solid #f5cdd4;
-      border-radius: 9px; background: #fff5f6;
+      display: inline-flex; align-items: center; gap: 9px; color: var(--primary); font-weight: 800;
+      text-decoration: none; font-size: 21px; padding: 10px 19px; border: 1px solid #f5cdd4;
+      border-radius: 14px; background: #fff5f6;
     }
     .paypal a:hover { background: #fde7ea; border-color: #ed9eab; }
 
-    .foot { text-align: center; color: var(--muted); font-size: 11px; padding: 14px 8px 0; }
+    .foot { text-align: center; color: var(--muted); font-size: 16px; padding: 21px 12px 0; }
 
     @media (prefers-color-scheme: dark) {
       :root {
         color-scheme: dark; --card: #182131; --ink: #f0f3f8; --muted: #a6b0c0;
-        --line: #2c3a52; --soft: #10161f; --shadow: 0 2px 12px rgba(0, 0, 0, .35);
+        --line: #2c3a52; --soft: #10161f; --shadow: 0 3px 18px rgba(0, 0, 0, .35);
       }
       body { background: #0e1520; }
       .lang-switch button:hover { background: #2b3a55; color: #fff; }
