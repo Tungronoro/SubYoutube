@@ -18,6 +18,7 @@
   - [Quyền riêng tư](#quyền-riêng-tư)
   - [Hỗ trợ](#hỗ-trợ)
 - [Store links](#store-links)
+- [❤️ Donate](#-donate)
 
 ---
 
@@ -69,6 +70,8 @@ Data is processed in the browser and is not automatically sent to a SubYoutube s
 ### Support
 
 If you find a bug or have a feature request, open a [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). When reporting a transcript issue, mention the selected YouTube caption language and your Edge version. Do not post passwords, one-time codes, addresses, phone numbers, or private content in an issue.
+
+**❤️ Love it? [Donate to the developer](https://tungronoro.github.io/SubYoutube/donate.html) and help keep SubYoutube free.**
 
 
 ---
@@ -122,6 +125,8 @@ Dữ liệu được xử lý trong trình duyệt và không tự động gửi
 
 Nếu phát hiện lỗi hoặc muốn đề xuất tính năng, hãy mở [GitHub Issue](https://github.com/Tungronoro/SubYoutube/issues). Khi báo lỗi transcript, hãy ghi rõ ngôn ngữ phụ đề đang chọn và phiên bản Edge; không đăng mật khẩu, mã OTP, địa chỉ, số điện thoại hoặc dữ liệu riêng tư trong issue.
 
+**❤️ Thấy hữu ích?** [Ủng hộ tác giả một ly cà phê](https://tungronoro.github.io/SubYoutube/donate.html) để SubYoutube luôn miễn phí.
+
 ---
 
 
@@ -140,6 +145,16 @@ The official Microsoft Edge Add-ons installation link is listed below.
 | Manifest | V3 |
 | Primary test platform | Microsoft Edge Chromium |
 | Store status | Live on Microsoft Edge Add-ons |
+
+## ❤️ Donate / Ủng hộ
+
+The developer loves to give ❤️, and coffee keeps the keyboard clicking. If **SubYoutube (or SubVoice / SubQuick)** helps your work or studies, a small donation is deeply appreciated:
+
+**English:** [Support the author](https://tungronoro.github.io/SubYoutube/donate.html) · **Tiếng Việt:** [❤️ Ủng hộ tác giả](https://tungronoro.github.io/SubYoutube/donate.html)
+
+> **MB Bank** · Số TK **0020118332203** · Chủ TK **NGUYEN THANH TUNG** · PayPal **paypal.me/tungronoro**
+
+---
 
 ## License
 
