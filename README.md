@@ -136,7 +136,7 @@ The official Microsoft Edge Add-ons installation link is listed below.
 
 | Item | Status |
 |---|---|
-| Current version | 4.12.1 |
+| Current version | 4.13.0 |
 | Manifest | V3 |
 | Primary test platform | Microsoft Edge Chromium |
 | Store status | Live on Microsoft Edge Add-ons |
