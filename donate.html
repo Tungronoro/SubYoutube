@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ủng hộ tác giả SubYoutube</title>
+  <style>
+    :root { color-scheme: light; --ink: #172033; --muted: #687386; --line: #e5e9f0; --soft: #f6f8fb; --primary: #d9233f; --primary-dark: #b91731; --success: #16845a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: #eef1f6; color: var(--ink); font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 15px; line-height: 1.5; }
+    header { display: flex; align-items: center; gap: 12px; padding: 16px 20px; background: #fff; border-bottom: 1px solid var(--line); }
+    .brand { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; background: var(--primary); overflow: hidden; box-shadow: 0 5px 14px rgba(217,35,63,.22); }
+    .brand img { width: 100%; height: 100%; object-fit: cover; }
+    h1 { margin: 0; font-size: 19px; line-height: 1.2; }
+    header p { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
+    .lang-switch { margin-left: auto; display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); }
+    .lang-switch button { padding: 5px 8px; border: 0; border-radius: 6px; background: transparent; color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; }
+    .lang-switch button.active { background: var(--primary); color: #fff; }
+    main { max-width: 620px; margin: 0 auto; padding: 24px 20px 40px; }
+    .heading { text-align: center; margin: 6px 0 22px; }
+    .heading .emoji { font-size: 34px; }
+    .heading h2 { margin: 8px 0 4px; font-size: 22px; }
+    .heading p { margin: 0; color: var(--muted); font-size: 13px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+    .card h3 { margin: 0 0 10px; font-size: 14px; }
+    .bank-row { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px dashed var(--line); font-size: 13px; }
+    .bank-row:last-of-type { border-bottom: 0; }
+    .bank-row label { color: var(--muted); }
+    .bank-row .value { font-weight: 800; text-align: right; word-break: break-all; }
+    .account-num { display: flex; align-items: center; gap: 8px; }
+    .account-num .value { font-size: 15px; letter-spacing: .02em; }
+    .copy-btn { flex: 0 0 auto; padding: 5px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--soft); color: var(--ink); font-size: 11px; font-weight: 700; cursor: pointer; }
+    .copy-btn:hover { background: #e2e8f1; }
+    .copy-btn.copied { background: var(--success); color: #fff; border-color: var(--success); }
+    .qr-box { text-align: center; }
+    .qr-box img { width: min(260px, 100%); border-radius: 10px; border: 1px solid var(--line); }
+    .qr-hint { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
+    .paypal { text-align: center; margin-top: 16px; }
+    .paypal a { color: var(--primary); font-weight: 800; text-decoration: none; }
+    .paypal a:hover { text-decoration: underline; }
+    .paypal small { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; }
+    footer { padding: 18px; text-align: center; color: var(--muted); font-size: 12px; }
+    @media (prefers-color-scheme: dark) {
+      :root { color-scheme: dark; --ink: #f0f3f8; --muted: #a6b0c0; --line: #344055; --soft: #202938; }
+      body { background: #111722; }
+      header, .card { background: #182131; }
+      .copy-btn { color: var(--ink); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand"><img src="icon48.png" alt="SubYoutube"></div>
+    <div>
+      <h1>SubYoutube</h1>
+      <p data-i18n="nav">Trang ủng hộ tác giả</p>
+    </div>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button id="langVi" class="active" type="button">VI</button>
+      <button id="langEn" type="button">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="heading">
+      <span class="emoji">❤️</span>
+      <h2 data-i18n="heading">Ủng hộ tác giả</h2>
+      <p data-i18n="subheading">Nếu SubYoutube hữu ích với bạn, hãy ủng hộ một tách cà phê cho tác giả nhé!</p>
+    </div>
+
+    <div class="grid">
+      <section class="card">
+        <h3 data-i18n="bankTitle">Chuyển khoản ngân hàng</h3>
+        <div class="bank-row"><label data-i18n="bankLabel">Ngân hàng</label><span class="value">MB Bank</span></div>
+        <div class="bank-row"><label data-i18n="holderLabel">Chủ tài khoản</label><span class="value">NGUYEN THANH TUNG</span></div>
+        <div class="bank-row">
+          <label data-i18n="accountLabel">Số tài khoản</label>
+          <div class="account-num">
+            <span class="value" id="accountNumber">0020118332203</span>
+            <button id="copyAccount" class="copy-btn" type="button" data-i18n="copy">Sao chép</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card qr-box">
+        <h3 data-i18n="qrTitle">Quét mã QR</h3>
+        <img src="qr_mbbank.png" alt="QR MB Bank" width="260" height="260">
+        <p class="qr-hint" data-i18n="qrHint">Mở app ngân hàng MB Bank và quét mã để chuyển khoản nhanh.</p>
+      </section>
+    </div>
+
+    <div class="paypal">
+      <h3 data-i18n="paypalTitle">Ủng hộ qua PayPal</h3>
+      <a href="https://paypal.me/tungronoro" target="_blank" rel="noopener noreferrer">paypal.me/tungronoro</a>
+      <small data-i18n="paypalHint">Nhấp vào địa chỉ để mở trình duyệt</small>
+    </div>
+  </main>
+
+  <footer data-i18n="footer">Cảm ơn bạn đã dùng SubYoutube! ❤️</footer>
+<script>
+    (function () {
+      'use strict';
+      var T = {
+        vi: {
+          nav: 'Trang ủng hộ tác giả', heading: 'Ủng hộ tác giả',
+          subheading: 'Nếu SubYoutube hữu ích với bạn, hãy ủng hộ tác giả một tách cà phê nhé!',
+          bankTitle: 'Chuyển khoản ngân hàng', bankLabel: 'Ngân hàng', holderLabel: 'Chủ tài khoản',
+          accountLabel: 'Số tài khoản', copy: 'Sao chép', copied: 'Đã sao chép!',
+          qrTitle: 'Quét mã QR', qrHint: 'Mở app ngân hàng MB Bank và quét mã để chuyển khoản nhanh.',
+          paypalTitle: 'Ủng hộ qua PayPal', paypalHint: 'Nhấp vào địa chỉ để mở trình duyệt',
+          footer: 'Cảm ơn bạn đã dùng SubYoutube! ❤️'
+        },
+        en: {
+          nav: 'Support the author', heading: 'Support the Author',
+          subheading: 'If SubYoutube helps you, buy the author a coffee!',
+          bankTitle: 'Bank transfer', bankLabel: 'Bank', holderLabel: 'Account holder',
+          accountLabel: 'Account number', copy: 'Copy', copied: 'Copied!',
+          qrTitle: 'Scan QR code', qrHint: 'Open the MB Bank app and scan the QR for a fast transfer.',
+          paypalTitle: 'Donate via PayPal', paypalHint: 'Click the link to open your browser',
+          footer: 'Thank you for using SubYoutube! ❤️'
+        }
+      };
+      var lang = navigator.language && navigator.language.toLowerCase().indexOf('en') === 0 ? 'en' : 'vi';
+      function apply(l) {
+        lang = l === 'en' ? 'en' : 'vi';
+        document.documentElement.lang = lang;
+        document.getElementById('langVi').classList.toggle('active', lang === 'vi');
+        document.getElementById('langEn').classList.toggle('active', lang === 'en');
+        document.querySelectorAll('[data-i18n]').forEach(function (n) {
+          var v = T[lang][n.getAttribute('data-i18n')];
+          if (v !== undefined) n.textContent = v;
+        });
+      }
+      document.getElementById('langVi').addEventListener('click', function () { apply('vi'); });
+      document.getElementById('langEn').addEventListener('click', function () { apply('en'); });
+
+      document.getElementById('copyAccount').addEventListener('click', function () {
+        var text = document.getElementById('accountNumber').textContent;
+        function done() {
+          var btn = document.getElementById('copyAccount');
+          btn.textContent = lang === 'vi' ? 'Đã sao chép!' : 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function () {
+            btn.textContent = lang === 'vi' ? 'Sao chép' : 'Copy';
+            btn.classList.remove('copied');
+          }, 1600);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done, done);
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(ta);
+          done();
+        }
+      });
+      apply(lang);
+    })();
+  </script>
+</body>
+</html>
